@@ -4,10 +4,7 @@ pipeline {
     stages {
         stage('Execute test Automation scripts') {
         	steps {
-	            withMaven(maven : 'MAVEN_HOME'){
-	                sh "mvn clean install"                
-	            }
-
+	                sh "mvn clean install"
 	        }
         	
         }
