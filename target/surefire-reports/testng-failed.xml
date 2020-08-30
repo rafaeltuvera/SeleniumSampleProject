@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" parallel="classes" name="Test Chrome Browser(failed)" verbose="0">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.qa.selenium.tests.LoginPageTest">
+        <methods>
+          <include name="verifyLoginPage"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.selenium.tests.LoginPageTest -->
+      <class name="com.qa.selenium.tests.HomePageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="verifyUserName"/>
+        </methods>
+      </class> <!-- com.qa.selenium.tests.HomePageTest -->
+    </classes>
+  </test> <!-- Test Chrome Browser(failed) -->
+  <test thread-count="5" parallel="classes" name="Test IE Browser(failed)" verbose="0">
+    <parameter name="browser" value="IE"/>
+    <classes>
+      <class name="com.qa.selenium.tests.LoginPageTest">
+        <methods>
+          <include name="verifyLoginPage"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.selenium.tests.LoginPageTest -->
+      <class name="com.qa.selenium.tests.HomePageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="verifyUserName"/>
+        </methods>
+      </class> <!-- com.qa.selenium.tests.HomePageTest -->
+    </classes>
+  </test> <!-- Test IE Browser(failed) -->
+</suite> <!-- Failed suite [Suite] -->
