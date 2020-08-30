@@ -3,7 +3,8 @@ pipeline {
     stages {
         stage('Execute test Automation scripts') {
         	steps {
-	          bat 'mvn clean install'
+        	  maven(maven : 'MAVEN_HOME')
+	          		bat 'mvn clean install'
 	        }
         	
         }
