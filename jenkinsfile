@@ -1,0 +1,15 @@
+pipeline {
+    agent any
+    
+    stages {
+        stage('Execute test scripts') {
+        	steps {
+	            withMaven(maven : 'MAVEN_HOME'){
+	                sh "mvn clean install"                
+	            }
+
+	        }
+        	
+        }
+    }
+}

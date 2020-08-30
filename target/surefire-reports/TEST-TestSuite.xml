@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="7.483" tests="12" errors="0" skipped="10" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="23.403" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="13"/>
     <property name="webdriver.chrome.driver" value="C:\Users\iceva\.m2\repository\webdriver\chromedriver\win32\84.0.4147.30\chromedriver.exe"/>
@@ -8,7 +8,6 @@
     <property name="java.class.path" value="C:\Users\iceva\eclipse-workspace\SeleniumProject\target\test-classes;C:\Users\iceva\eclipse-workspace\SeleniumProject\target\classes;C:\Users\iceva\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\iceva\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\iceva\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\iceva\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\iceva\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\iceva\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\iceva\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\iceva\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\iceva\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\iceva\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\iceva\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\iceva\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\iceva\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\iceva\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\iceva\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\iceva\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\iceva\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\iceva\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\iceva\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\iceva\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\iceva\.m2\repository\io\github\bonigarcia\webdrivermanager\3.8.1\webdrivermanager-3.8.1.jar;C:\Users\iceva\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\iceva\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\iceva\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\iceva\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\iceva\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\iceva\.m2\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;C:\Users\iceva\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\iceva\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\iceva\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\iceva\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\iceva\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\iceva\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\iceva\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\iceva\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\iceva\.m2\repository\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar;C:\Users\iceva\.m2\repository\org\apache\poi\poi\3.9\poi-3.9.jar;C:\Users\iceva\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar;C:\Users\iceva\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\iceva\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\iceva\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\iceva\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="webdriver.ie.driver" value="C:\Users\iceva\.m2\repository\webdriver\IEDriverServer\x64\3.150\IEDriverServer.exe"/>
     <property name="user.variant" value=""/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="user.timezone" value="Asia/Singapore"/>
@@ -17,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-13.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\iceva\AppData\Local\Temp\surefire2307309583675344447\surefirebooter8475348110912354374.jar C:\Users\iceva\AppData\Local\Temp\surefire2307309583675344447 2020-08-13T21-09-34_395-jvmRun1 surefire14020599877605680377tmp surefire_07055198980063577169tmp"/>
+    <property name="sun.java.command" value="C:\Users\iceva\AppData\Local\Temp\surefire8779256979571321537\surefirebooter13082064039677577145.jar C:\Users\iceva\AppData\Local\Temp\surefire8779256979571321537 2020-08-30T15-02-10_650-jvmRun1 surefire7112150406987138812tmp surefire_07052483194072135972tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\iceva\eclipse-workspace\SeleniumProject\target\test-classes;C:\Users\iceva\eclipse-workspace\SeleniumProject\target\classes;C:\Users\iceva\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\iceva\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\iceva\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\iceva\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\iceva\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\iceva\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\iceva\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\iceva\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\iceva\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\iceva\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\iceva\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\iceva\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\iceva\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\iceva\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\iceva\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\iceva\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\iceva\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\iceva\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\iceva\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\iceva\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\iceva\.m2\repository\io\github\bonigarcia\webdrivermanager\3.8.1\webdrivermanager-3.8.1.jar;C:\Users\iceva\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\iceva\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\iceva\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\iceva\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\iceva\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\iceva\.m2\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;C:\Users\iceva\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\iceva\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\iceva\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\iceva\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\iceva\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\iceva\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\iceva\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\iceva\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\iceva\.m2\repository\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar;C:\Users\iceva\.m2\repository\org\apache\poi\poi\3.9\poi-3.9.jar;C:\Users\iceva\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar;C:\Users\iceva\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\iceva\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\iceva\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\iceva\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\iceva\AppData\Local\Temp\surefire2307309583675344447\surefirebooter8475348110912354374.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\iceva\AppData\Local\Temp\surefire8779256979571321537\surefirebooter13082064039677577145.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="13.0.1+9"/>
@@ -50,68 +49,30 @@
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-13.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk-13.0.1/bin/server;C:/Program Files/Java/jdk-13.0.1/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files (x86)\Lenovo\FusionEngine;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\lenovo\easyplussdk\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\iceva\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-13.0.1\bin;C:\Program Files\Maven\apache-maven-3.6.2\bin;;C:\Users\iceva\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\iceva\AppData\Roaming\npm;C:\Users\iceva\Desktop;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-13.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk-13.0.1/bin/server;C:/Program Files/Java/jdk-13.0.1/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files (x86)\Lenovo\FusionEngine;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\lenovo\easyplussdk\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\iceva\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-13.0.1\bin;C:\Program Files\Maven\apache-maven-3.6.2\bin;;C:\Users\iceva\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\iceva\AppData\Roaming\npm;C:\WINDOWS\System32;;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="13.0.1+9"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="57.0"/>
   </properties>
-  <testcase name="setup[chrome](0)" classname="com.qa.selenium.tests.HomePageTest" time="4.899">
-    <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
-	at com.qa.selenium.tests.HomePageTest.setup(HomePageTest.java:31)
-]]></failure>
+  <testcase name="verifyUserName" classname="com.qa.selenium.tests.HomePageTest" time="0.113">
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 14302
+Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 39784
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Aug 13, 2020 9:09:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Aug 30, 2020 3:02:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 18306
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 30, 2020 3:02:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="setup" classname="com.qa.selenium.tests.HomePageTest" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="setup" classname="com.qa.selenium.tests.HomePageTest" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="verifyUserName" classname="com.qa.selenium.tests.HomePageTest" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="verifyUserName" classname="com.qa.selenium.tests.HomePageTest" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="tearDown" classname="com.qa.selenium.tests.HomePageTest" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="tearDown" classname="com.qa.selenium.tests.HomePageTest" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="tearDown" classname="com.qa.selenium.tests.HomePageTest" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="tearDown" classname="com.qa.selenium.tests.HomePageTest" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="setup[IE](0)" classname="com.qa.selenium.tests.HomePageTest" time="7.347">
-    <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
-	at com.qa.selenium.tests.HomePageTest.setup(HomePageTest.java:31)
-]]></failure>
-    <system-err><![CDATA[Started InternetExplorerDriver server (64-bit)
-3.150.0.0
-Listening on port 19888
-Only local connections are allowed
-Aug 13, 2020 9:09:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="verifyLoginPage" classname="com.qa.selenium.tests.LoginPageTest" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="verifyLoginPage" classname="com.qa.selenium.tests.LoginPageTest" time="0">
-    <skipped/>
-  </testcase>
+  <testcase name="verifyLoginPage" classname="com.qa.selenium.tests.LoginPageTest" time="1.759"/>
 </testsuite>

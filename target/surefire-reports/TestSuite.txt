@@ -1,12 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 12, Failures: 2, Errors: 0, Skipped: 10, Time elapsed: 7.483 s <<< FAILURE! - in TestSuite
-com.qa.selenium.tests.HomePageTest.setup[chrome](0)  Time elapsed: 4.899 s  <<< FAILURE!
-java.lang.NullPointerException
-	at com.qa.selenium.tests.HomePageTest.setup(HomePageTest.java:31)
-
-com.qa.selenium.tests.HomePageTest.setup[IE](0)  Time elapsed: 7.347 s  <<< FAILURE!
-java.lang.NullPointerException
-	at com.qa.selenium.tests.HomePageTest.setup(HomePageTest.java:31)
-
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 23.403 s - in TestSuite
