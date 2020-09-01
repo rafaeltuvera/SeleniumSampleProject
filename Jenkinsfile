@@ -1,9 +1,16 @@
 pipeline {
     agent any
     stages {
-        stage('Execute test Automation scripts') {
+        stage('Build') {
         	steps {
 	          		bat "mvn clean install"
+	        }
+        	
+        }
+        
+        stage('Execute test Automation scripts') {
+        	steps {
+	          		bat "mvn clean test"
 	        }
         	
         }
