@@ -9,6 +9,6 @@ pipeline {
         }
     }
     tools {
-      maven 'M3'
+      maven 'MAVEN_HOME'
   }
 }
